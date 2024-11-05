@@ -12,8 +12,8 @@ export class LoginFlow {
     this.page = await context.newPage();
   }
 
-  @given(`Go to Jenkins NTB`, { timeout: 3000 })
+  @given(`Go to Google`, { timeout: 3000 })
   async GotoJenkins(): Promise<void> {
-    await this.page.goto('http://ci.ntbx.tech/');
+    await this.page.goto('www.google.com');
   }
 }
