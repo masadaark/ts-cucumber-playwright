@@ -1,0 +1,76 @@
+[
+  {
+    "description": "    Feature Description",
+    "elements": [
+      {
+        "description": "",
+        "id": "feature-name;scenario-name",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Scenario name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 520799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Build Browser",
+            "match": {
+              "location": "testcases\\testScripts\\test_login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 800649599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "Go to Jenkins NTB",
+            "match": {
+              "location": "testcases\\testScripts\\test_login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 367011400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 220099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login",
+            "line": 1
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "feature-name",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "Feature name",
+    "tags": [
+      {
+        "name": "@login",
+        "line": 1
+      }
+    ],
+    "uri": "testcases\\test_login.feature"
+  }
+]
