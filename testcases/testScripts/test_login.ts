@@ -5,9 +5,15 @@ import BrowserClass from './class/playwright_browser.class';
 @binding()
 export class LoginFlow {
 
-  @given(`Go to Google`, { timeout: 3000 })
+  @given(`Go to Google`, { timeout: 30000 })
   async GotoJenkins(): Promise<void> {
-    await BrowserClass.page.goto('http://www.google.com');
+    const page = BrowserClass.page
+    await page.goto('http://www.google.com');
+    const searchTextArea = page.locator('textarea[title="ค้นหา"]');
+    await searchTextArea.waitFor({ state: 'visible' });
+
+    await searchTextArea.fill("Hello World");
+    await searchTextArea.press('Enter');
   }
 
   @given(`Wait for {int} seconds`, { timeout: 30000 })
