@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 520799
+              "duration": 419499
             }
           },
           {
@@ -27,20 +27,46 @@
             },
             "result": {
               "status": "passed",
-              "duration": 800649599
+              "duration": 976122700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 7,
-            "name": "Go to Jenkins NTB",
+            "name": "Go to Google",
             "match": {
               "location": "testcases\\testScripts\\test_login.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 367011400
+              "duration": 1121247700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "Wait for 10 seconds",
+            "match": {
+              "location": "testcases\\testScripts\\test_login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10002144999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "Close Browser",
+            "match": {
+              "location": "testcases\\testScripts\\test_login.ts:4"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 453499700
             }
           },
           {
@@ -48,13 +74,13 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 220099
+              "duration": 104600
             }
           }
         ],
         "tags": [
           {
-            "name": "@login",
+            "name": "@test-navigate",
             "line": 1
           }
         ],
@@ -67,7 +93,7 @@
     "name": "Feature name",
     "tags": [
       {
-        "name": "@login",
+        "name": "@test-navigate",
         "line": 1
       }
     ],

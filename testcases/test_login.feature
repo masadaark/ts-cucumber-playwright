@@ -5,3 +5,5 @@ Feature: Feature name
     Scenario: Scenario name
     Given Build Browser
     Given Go to Google
+    Given Wait for 10 seconds
+    Given Close Browser
