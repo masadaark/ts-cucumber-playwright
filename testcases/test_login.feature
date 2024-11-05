@@ -1,4 +1,4 @@
-@login
+@test-navigate
 Feature: Feature name
 
     Feature Description
