@@ -14,59 +14,46 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 419499
+              "duration": 613700
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
             "line": 6,
-            "name": "Build Browser",
-            "match": {
-              "location": "testcases\\testScripts\\test_login.ts:4"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 976122700
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 7,
             "name": "Go to Google",
             "match": {
               "location": "testcases\\testScripts\\test_login.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 1121247700
+              "duration": 1131938899
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 8,
+            "line": 7,
             "name": "Wait for 10 seconds",
             "match": {
               "location": "testcases\\testScripts\\test_login.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 10002144999
+              "duration": 10015873499
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 9,
+            "line": 8,
             "name": "Close Browser",
             "match": {
               "location": "testcases\\testScripts\\test_login.ts:4"
             },
             "result": {
               "status": "passed",
-              "duration": 453499700
+              "duration": 727629799
             }
           },
           {
@@ -74,7 +61,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 104600
+              "duration": 187700
             }
           }
         ],
