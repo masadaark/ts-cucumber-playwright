@@ -11,9 +11,18 @@ class BrowserClass {
         this._page = await this._context.newPage();
     }
 
-    static async down(){
-        if (this._page) await this._page.close();
+    static async down() {
+        await this.closePage()
+        await this.closeBrowser()
+        await this.closeContext()
+    }
+    static async closeContext() {
         if (this._context) await this._context.close();
+    }
+    static async closePage() {
+        if (this._page) await this._page.close();
+    }
+    static async closeBrowser() {
         if (this._browser) await this._browser.close();
     }
     static get page(): Page {

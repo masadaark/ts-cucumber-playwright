@@ -1,5 +1,4 @@
 import { binding, given, then } from 'cucumber-tsflow';
-import { Browser, BrowserContext, chromium, Page } from '@playwright/test';
 import BrowserClass from './class/playwright_browser.class';
 
 @binding()
