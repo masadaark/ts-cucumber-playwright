@@ -8,10 +8,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.48.2",
-    "@types/node": "^22.9.0",
+    "@playwright/test": "1.48.2",
+    "@types/node": "22.9.0",
     "cucumber-tsflow": "4.4.4",
-    "@cucumber/cucumber": "9.6.0",
+    "@cucumber/cucumber": "11.0.1",
     "ts-node": "10.9.2"
   }
 }
